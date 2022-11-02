@@ -1,0 +1,60 @@
+.wrapper {
+    width: 20%;
+    border-right: 1px solid #ccc;
+    height: 89vh;
+    overflow-y: auto;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 10px;
+}
+.option {
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+}
+.infor-chat {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    height: 70px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+.infor-chat:hover {
+    background-color: #e5efff;
+}
+.img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+    transition: 0.5s;
+}
+.img img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-position: center;
+}
+.gui-chat h2 {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: normal;
+    color: #001a33;
+}
+.gui-chat p {
+    font-size: 16px;
+    color: #001a33;
+}
+.time {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}

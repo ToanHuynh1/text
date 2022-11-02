@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1040;
+    //box-shadow: rgb(0 0 0 / 10%) 0px 0.5rem 1rem;
+}
+.header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.logo {
+    width: 30%;
+    height: 100%;
+    background-image: url('../../../asset/images/GICCHAT.jpg');
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    padding: 0 50px;
+}
+.search-box {
+    display: flex;
+    width: 40%;
+    padding: 0 100px 0 0;
+    justify-content: center;
+    position: relative;
+    left: -50px;
+}
+.btn-search {
+    border-radius: 30px;
+    padding: 9px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: -40px;
+    border: none;
+}
+.btn-search:hover {
+    cursor: pointer;
+}
+.search-icon {
+    font-size: 16px;
+}
+.search-input {
+    font-size: 18px;
+    padding: 10px;
+    width: 360px;
+    border-radius: 30px;
+    border: 2px solid #ccc;
+}
+.search-input:focus {
+    outline: none;
+}
+.account {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.account:hover {
+    cursor: pointer;
+}
+.img {
+    width: 45px;
+    height: 45px;
+    border: 4px solid #f2726a;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+    transition: 0.5s;
+}
+.img img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-position: center;
+}
+.infor-username {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid black;
+}
+.option {
+    list-style: none;
+}
+.option li {
+    margin: 10px;
+}
+.item-option {
+    font-size: 20px;
+    border: none;
+    width: 100%;
+    padding: 7px;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+.item-option:hover {
+    background-color: blue;
+    color: #fff;
+}
+.name {
+    font-size: 20px;
+    cursor: context-menu;
+    padding: 7px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}

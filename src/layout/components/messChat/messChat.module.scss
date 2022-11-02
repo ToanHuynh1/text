@@ -1,0 +1,123 @@
+.wrapper {
+    //width: 60%;
+    border-right: 1px solid #ccc;
+    flex: 1;
+    height: 89vh;
+    position: relative;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 10px;
+}
+.header-chat {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    height: 70px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+.img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+    transition: 0.5s;
+    margin: 10px;
+}
+.img img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-position: center;
+}
+.infor-chat h2 {
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: normal;
+    color: #001a33;
+}
+.option {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    font-size: 20px;
+    color: black;
+}
+.option .icon-option {
+    margin: 0 9px;
+    opacity: 0.7;
+    font-weight: 400;
+}
+.option .icon-option:hover {
+    opacity: 1;
+}
+.content-chat {
+    width: 100%;
+    background-color: #a6cdb1;
+    //height: 80vh;
+}
+.show-mess {
+    overflow-y: auto;
+    height: 75vh;
+    position: relative;
+}
+.item-mess {
+    padding: 5px;
+    color: #000;
+    margin: 5px 0;
+    display: flex;
+}
+.mychat {
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+.mychat img {
+    display: none;
+}
+.input-send {
+    height: 5vh;
+    position: relative;
+}
+.input-chat {
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    padding: 7px;
+    font-size: 18px;
+    border: none;
+    display: flex;
+}
+.input-chat:focus {
+    outline: none;
+    border-top: 1px solid blue;
+}
+.send {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 5%;
+    cursor: pointer;
+    padding: 7px;
+    font-size: 35px;
+    color: #000;
+    background-color: white;
+}
+button {
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+}
+
+.btn-ok {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}

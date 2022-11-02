@@ -1,0 +1,113 @@
+.wrapper {
+    width: 100%;
+    height: 89vh;
+    margin: 0 15px;
+}
+.listfriend {
+    height: 65px;
+    display: flex;
+    align-items: center;
+}
+.icon-friends {
+    background-color: #0091ff;
+    padding: 10px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+}
+.listfriend h1 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 5px;
+}
+.listadd-header {
+    margin: 10px 75px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+    transition: 0.5s;
+}
+.img img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-position: center;
+}
+.listadd-infor {
+    display: flex;
+    width: 80%;
+    height: 80px;
+    border: 1px solid #ccc;
+    align-items: center;
+    margin: 10px 10%;
+    position: relative;
+}
+.infor {
+    display: flex;
+    align-items: center;
+}
+.inf {
+    padding: 0 15px;
+}
+.inf h2 {
+    padding: 5px 0;
+}
+.option {
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+.option-1 {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 10px;
+    color: blue;
+}
+.option-2 {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #0091ff;
+    border-radius: 5px;
+}
+.title-listfriend {
+    margin: 10px 75px;
+    font-size: 20px;
+}
+.friendslist {
+    margin: 10px 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.friend {
+    width: 25%;
+    //width: 150px;
+    height: 150px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.img_list {
+    width: 96px;
+    height: 96px;
+    margin-left: 35%;
+}
+.infor-list {
+    margin: 10px;
+}
+.infor-list h2 {
+    margin: 10px;
+    font-size: 25px;
+}

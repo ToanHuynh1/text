@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content {
+    display: flex;
+}
+.content-left {
+    width: 4%;
+    height: 89vh;
+    background-color: #0091ff;
+}
+.content-right {
+    width: 96%;
+    height: 89vh;
+    //background-color: #000;
+    color: #000;
+}
+.icon-option {
+    font-size: 30px;
+    color: white;
+    width: 100%;
+    height: 60px;
+    padding: 15px 0;
+    cursor: pointer;
+}
+.icon-option:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.icon-option:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.active {
+    display: none;
+}
+.tab-content {
+    display: none;
+}
+.active {
+    display: flex !important;
+}
+.settingchat {
+    display: block;
+}

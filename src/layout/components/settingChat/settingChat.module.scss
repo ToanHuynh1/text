@@ -1,0 +1,42 @@
+.wrapper {
+    width: 20%;
+}
+.header {
+    height: 70px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+.header h2 {
+    font-weight: 500;
+}
+.img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px;
+    transition: 0.5s;
+    margin: 10px;
+}
+.img img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-position: center;
+}
+.infor-chat h2 {
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: normal;
+    color: #001a33;
+}
+.user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
